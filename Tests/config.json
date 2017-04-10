@@ -1,0 +1,18 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "AB:CD:EF:12:34:56",
+        "port": 51826,
+        "pin": "345-12-345"
+    },
+
+    "description": "This file provides the information to start Homebridge, the utility that allows Siri to interact with many of the home automation devices.",
+
+    "accessories": [],
+
+    "platforms": [{
+        "platform": "HarmonyHub",
+        "name": "Hub"
+    }]
+}
+
